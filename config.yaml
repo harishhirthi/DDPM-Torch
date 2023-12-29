@@ -1,0 +1,15 @@
+version: v1.0
+image_size:
+  channels: 3
+  height: 32
+  width: 32
+sample_dir: Generated
+seed: 34
+diffusion_process:
+  num_training_steps: 1000
+  num_inference_steps: 1000
+  beta_1: 0.0001
+  beta_T: 0.02
+reverse_process:
+  time_emb_dim: 128
+  lr: 0.001
