@@ -2,9 +2,13 @@
 Interesting Topic as a part of **Generative AI** using **Diffusion** to generate different Bitmoji Faces based on Gender condition.
 
 ## Description:
-***Denoising Diffusion Probabilistic Model [DDPM]***, a foundation model for famous *Stable Diffusion*, generate new samples from random noise. DDPM works by iteratively adding noise to an input signal (image) and then learning to denoise from the noisy signal to generate new samples. In this a approach called, **Classifier-Free Guidance** is used to condition the Diffusion process to generate new bitmoji faces based on the gender condition. This new method is inspired from the [paper](https://arxiv.org/abs/2006.11239) published on 2020
+***Denoising Diffusion Probabilistic Model [DDPM]***, a foundation model for famous *Stable Diffusion*, generate new samples from random noise. DDPM works by iteratively adding noise to an input signal (image) and then learning to denoise from the noisy signal to generate new samples. 
 
-It comprises of two process *Forward Process (or) Diffusion Process* and *Reverse Process*.
+In this a approach called, **Classifier-Free Guidance** is used to condition the Diffusion process to generate new bitmoji faces based on the gender condition. 
+
+This Diffusion method is inspired from the [paper](https://arxiv.org/abs/2006.11239) published on 2020.
+
+It comprises of two process: *Forward Process (or) Diffusion Process* and *Reverse Process*.
 
 ## Dataset: 
 [Bitmoji Faces](https://www.kaggle.com/datasets/mostafamozafari/bitmoji-faces)
